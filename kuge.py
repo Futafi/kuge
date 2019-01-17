@@ -15,6 +15,8 @@ def get(is_headless=True, is_photo=True, path_to_chrome_driver=""):
     # 現時点で拡張機能の使用は不可能だがGoogleがそのうち使えるようにしそうなのであらかじめdisableしておく
     options.add_argument("--disable-extensions")
 
+    # windowsで実行したときのログ出力の抑制
+    options.add_argument('--log-level=3')
     if path_to_chrome_driver:
         browser = webdriver.Chrome(executable_path=path_to_chrome_driver, options=options)
         browser.implicitly_wait(3)
