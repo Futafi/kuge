@@ -16,7 +16,7 @@ Installation
 
 **ARM以外**
 
-    $pip install chrome_binary
+    $pip install chromedriver_binary
     $pip install selenium
 
 を行った後、利用したいディレクトリでgit clone https://github.com/Futafi/kuge.gitしてください。
