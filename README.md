@@ -19,7 +19,8 @@ Installation
     $pip install chrome_binary
     $pip install selenium
 
-を行った後プロジェクトフォルダに直接kuge.pyをおき、利用するソースコード内で
+を行った後、利用したいディレクトリでgit clone https://github.com/Futafi/kuge.gitしてください。
+その後利用するソースコード内で
 
     >>> import kuge
 
@@ -30,7 +31,8 @@ Installation
     $pip install selenium
     $apt install chromium-chromedriver
     
-を行った後プロジェクトフォルダに直接kuge.pyをおき、利用するソースコード内で
+を行った後、利用したいディレクトリでgit clone https://github.com/Futafi/kuge.gitしてください。
+その後利用するソースコード内で
 
     >>> import kuge
 
